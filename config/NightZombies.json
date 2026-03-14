@@ -1,0 +1,62 @@
+{
+  "Spawn Settings": {
+    "Always Spawned": true,
+    "Spawn Time": 19.8,
+    "Destroy Time": 7.3,
+    "Spawn near players": true,
+    "Min pop for near player spawn": 1,
+    "Min distance from player": 50.0,
+    "Max distance from player": 200.0,
+    "Wave respawn interval (minutes, 0 = off)": 10,
+    "Zombie Settings": {
+      "Display Name": "Scarecrow",
+      "Scarecrow Population (total amount)": 8,
+      "Scarecrow Health": 200.0,
+      "Scarecrow Kits": []
+    },
+    "Scientist Settings": {
+      "Display Name": "Scientist",
+      "Scientist Population (total amount)": 3,
+      "Scientist Health": 150.0,
+      "Scientist Kits": []
+    },
+    "Road Settings": {
+      "Prefer roads": false,
+      "Road spawn chance": 0.0,
+      "Max distance from road": 18.0
+    },
+    "Chance Settings": {
+      "Chance per cycle": 100.0,
+      "Days betewen spawn": 0
+    }
+  },
+  "Destroy Settings": {
+    "Leave Corpse, when destroyed": false,
+    "Leave Corpse, when killed by player": true,
+    "Spawn Loot": true,
+    "Half bodybag despawn time": true
+  },
+  "Behaviour Settings": {
+    "Attack sleeping players": false,
+    "Zombies attacked by outpost sentries": false,
+    "Throw Grenades": true,
+    "Ignore Human NPCs": true,
+    "Ignored entities (full entity shortname)": [
+      "scientistjunkpile.prefab",
+      "scarecrow.prefab"
+    ]
+  },
+  "Command Settings": {
+    "Chat spawn command": "spawn",
+    "Chat respawn command": "respawn",
+    "Chat clear command": "clear",
+    "Chat status command": "status",
+    "Console spawn command": "nightzombies.spawn",
+    "Console respawn command": "nightzombies.respawn",
+    "Console clear command": "nightzombies.clear",
+    "Console status command": "nightzombies.status"
+  },
+  "Broadcast Settings": {
+    "Broadcast spawn amount": false
+  }
+}
