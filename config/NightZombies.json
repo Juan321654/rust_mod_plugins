@@ -11,7 +11,7 @@
     "Zombie Settings": {
       "Display Name": "Scarecrow",
       "Scarecrow Population (total amount)": 8,
-      "Scarecrow Health": 200.0,
+      "Scarecrow Health": 120.0,
       "Scarecrow Kits": []
     },
     "Scientist Settings": {
